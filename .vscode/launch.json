@@ -1,0 +1,79 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HumiditySensor",
+            "request": "launch",
+            "mainClass": "iscot.client.HumiditySensor",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "LivingRoom"]
+        },
+        {
+            "type": "java",
+            "name": "Ventilator",
+            "request": "launch",
+            "mainClass": "iscot.client.Ventilator",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "LivingRoom"]
+        }
+        {
+        "type": "java",
+        "name": "LightSensor",
+        "request": "launch",
+        "mainClass": "iscot.client.LightSensor",
+        "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+        "args": ["localhost", "8080", "LivingRoom"]
+        },
+        {
+        "type": "java",
+        "name": "TemperatureSensor",
+        "request": "launch",
+        "mainClass": "iscot.client.TemperatureSensor",
+        "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+        "args": ["localhost", "8080", "LivingRoom"]
+        },
+        {
+            "type": "java",
+            "name": "GroundMoistureSensor",
+            "request": "launch",
+            "mainClass": "iscot.client.GroundMoistureSensor",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "Garden"]
+        },       
+        {
+            "type": "java",
+            "name": "LightActuator",
+            "request": "launch",
+            "mainClass": "iscot.client.LightActuator",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "LivingRoom"]
+        },
+        {
+            "type": "java",
+            "name": "AirConditioner",
+            "request": "launch",
+            "mainClass": "iscot.client.AirConditioner",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "LivingRoom"]
+        },
+        {
+            "type": "java",
+            "name": "IrrigationActuator",
+            "request": "launch",
+            "mainClass": "iscot.client.IrrigationActuator",
+            "projectName": "ProjetoPCD_26_27_IscoT_GUI",
+            "args": ["localhost", "8080", "Garden"]
+        }, 
+    ]
+}
